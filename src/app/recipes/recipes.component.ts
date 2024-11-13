@@ -8,6 +8,7 @@ import { Recipe } from './recipe.model';
 })
 export class RecipesComponent {
   selectedRecipe: Recipe;
+  
   receivedRecipe(Received: Recipe){
     this.selectedRecipe = Received;
   }

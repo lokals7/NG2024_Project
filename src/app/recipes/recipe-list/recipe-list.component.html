@@ -7,7 +7,7 @@
 <div class="row"> 
     <div class="col-xs-12">
         @for (recipeEl of recipes; track $index){  
-        <app-recipe-item [recipeElement]="recipeEl" [recipeElIndex]="$index" (recipeClicked)="recipeEmitted($event)"></app-recipe-item>
+        <app-recipe-item [recipeElement]="recipeEl" [recipeElIndex]="$index"></app-recipe-item>
       }
     </div>
 </div> 
